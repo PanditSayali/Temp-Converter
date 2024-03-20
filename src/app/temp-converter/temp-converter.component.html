@@ -1,0 +1,12 @@
+<div class="container" class="text-center">
+  <div>
+      <label for="celsius">Celsius :</label>
+      <input type="number" id="celsius" [(ngModel)]="celsius" >
+      <p>={{convertToCelsius()}} Degrees Fahrenheit</p>
+  </div>
+  <div>
+      <label for="fahrenheit">Fahrenheit :</label>
+      <input type="number" id="fahrenheit" [(ngModel)]="fahrenheit1">
+      <p>={{convertToFahrenheit()}} Degrees Celsius</p>
+  </div>
+</div>
